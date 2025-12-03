@@ -30,10 +30,39 @@ img {
   background-color: navy;
   color: azure;
 }
-* {
+/* * {
   color: blueviolet;
-}
-a[href] {
+} */
+/* a[href] {
   color: green;
   font-size: 20px;
+} */
+a :hover {
+  color: red;
+  font-size: 25px;
+}
+table :hover {
+  color: red;
+}
+a :active {
+  color: yellow;
+  font-size: 25px;
+}
+.click_on:link {
+  color: green;
+}
+.click_on:visited {
+  color: blueviolet;
+}
+.box_test {
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+  padding: 30px;
+  border: 10px dotted blueviolet;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+#n1 {
+  background-color: aqua;
 }
