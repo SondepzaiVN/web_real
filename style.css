@@ -1,0 +1,39 @@
+h1,
+h2 {
+  color: red;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  opacity: 30%;
+  background-color: brown;
+}
+h3 {
+  /* display: none; */
+  visibility: visible;
+  /* visibility có thừa kế  */
+}
+input:checked ~ img,
+input:checked ~ hr {
+  /* opacity: 0; */
+  display: none;
+}
+img {
+  transition: 2s;
+}
+#l1 {
+  opacity: 1;
+  font-size: 20px;
+  background-color: navy;
+  color: azure;
+}
+* {
+  color: blueviolet;
+}
+a[href] {
+  color: green;
+  font-size: 20px;
+}
